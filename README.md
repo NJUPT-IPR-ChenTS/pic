@@ -54,7 +54,7 @@
 }
 ```
 
-# 5.删除小红书账户
+### 5.删除小红书账户
 **Endpoint**:
 `DELETE "http://0.0.0.0:8088/accounts/xhs_account/delete/{xhs_username}"`
 #### 参数说明: 1、xhs_username:小红书本地账户名称；
