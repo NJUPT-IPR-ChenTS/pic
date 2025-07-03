@@ -14,3 +14,19 @@
     },
 ]
 ```
+### 2.创建账户
+**Endpoint**: 
+`POST "http://0.0.0.0:8088/accounts/account/create`
+#### 参数说明: 1、username:主账户名称；
+#### 请求示例
+```json
+{
+    "username": "Admin"
+}
+```
+#### 响应示例
+```json
+{
+    "message": "主账号创建成功"
+}
+```
