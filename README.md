@@ -9,13 +9,12 @@
 [
     {
         "xhs_username": "Xhs_account2",
-        "xhs_id": "default",
         "user_id": "xxxxx"
-    },
+    }
 ]
 ```
 
-### 2.创建账户
+### 2.创建主账户
 **Endpoint**: 
 `POST "http://0.0.0.0:8088/accounts/account/create/{main_account}`
 #### 参数说明: 1、main_account:主账户名称；
@@ -26,7 +25,7 @@
 }
 ```
 
-### 3.删除账户
+### 3.删除主账户
 **Endpoint**:
 `DELETE "http://0.0.0.0:8088/accounts/account/delete/{main_account}"`
 #### 参数说明: 1、main_account:主账户名称；
@@ -37,7 +36,7 @@
 }
 ```
 
-### 4.创建小红书账户
+### 4.基于某个主账户创建小红书账户
 **Endpoint**:
 `POST "http://0.0.0.0:8088/accounts/xhs_account/create"`
 #### 参数说明: 1、main_account:主账户名称；2、xhs_username:小红书本地账户名称；
